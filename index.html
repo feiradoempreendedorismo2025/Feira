@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Colégio Jorge Assunção</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo do Colégio Jorge Assunção">
+        <h1>Feira do Empreendedorismo</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#apostila">Apostila</a></li>
+            <li><a href="#jogos">Jogos</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#simulador">Simulador</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="apostila">
+            <h2>Apostila</h2>
+            <embed src="apostila.pdf" type="application/pdf" width="100%" height="600px">
+        </section>
+
+        <section id="jogos">
+            <h2>Jogos Interativos</h2>
+            <p>Acesse os jogos e aprenda brincando!</p>
+        </section>
+
+        <section id="quiz">
+            <h2>Quiz Empreendedor</h2>
+            <button onclick="startQuiz()">Iniciar Quiz</button>
+            <div id="quiz-container"></div>
+        </section>
+
+        <section id="simulador">
+            <h2>Simulador de Plano de Negócio</h2>
+            <button onclick="downloadSimulador()">Baixar Simulador</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
